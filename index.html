@@ -13,11 +13,11 @@
     .container {
       color: white;
       border: 5px solid gold;
-      display: inline-flex;
+      display: inline-flex;  /*We can use inline-flex to put everthing on the same line and with as much space as it need*/
       flex-direction: column;
     }
 
-    .container > *{
+    .container > *{        /*since flex-basis only applies to child, we can specify all children inside class container using Child selector*/
       flex-basis: 100px;
     }
 
